@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Marcenaria Oliveira's | Móveis Planejados em Paiçandu e Maringá</title>
+
+<meta name="description" content="Marcenaria em Paiçandu especializada em móveis planejados sob medida. Atendimento em Maringá e região. Orçamento grátis via WhatsApp.">
+<meta name="keywords" content="marcenaria Paiçandu, móveis planejados Maringá, guarda roupa sob medida, cozinha planejada PR">
+<meta name="author" content="Marcenaria Oliveira's">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Marcenaria Oliveira's - Móveis Planejados">
+<meta property="og:description" content="Transformamos ambientes com móveis sob medida. Orçamento gratuito via WhatsApp.">
+<meta property="og:type" content="website">
+
+<style>
+:root{
+--primary:#8B4513;
+--dark:#222;
+--light:#f8f8f8;
+--whatsapp:#25D366;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{font-family:Arial,sans-serif;color:#333;line-height:1.6}
+
+.container{width:90%;max-width:1200px;margin:auto}
+
+header{background:#fff;position:sticky;top:0;box-shadow:0 2px 5px rgba(0,0,0,.1)}
+
+.nav{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+
+.logo{font-weight:bold;font-size:1.4rem;color:var(--primary)}
+
+.nav-links{display:flex;gap:1.5rem;list-style:none}
+
+.nav-links a{text-decoration:none;color:#333}
+
+.btn-nav{background:var(--primary);color:#fff;padding:.4rem 1rem;border-radius:4px}
+
+#menu-mobile{display:none;cursor:pointer;font-size:1.5rem}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1600') center/cover no-repeat;
+color:#fff;text-align:center;padding:6rem 0
+}
+
+.hero h1{font-size:2.2rem;margin-bottom:1rem}
+
+.btn-primary{
+background:var(--primary);
+color:#fff;
+padding:.8rem 1.5rem;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+margin-top:1rem
+}
+
+.servicos{background:var(--light);padding:4rem 0}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}
+
+.card{background:#fff;padding:2rem;border-radius:6px}
+
+.cta{background:var(--primary);color:#fff;text-align:center;padding:4rem 0}
+
+.btn-secondary{
+border:2px solid #fff;
+color:#fff;
+padding:.8rem 1.5rem;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+margin-top:1rem
+}
+
+footer{background:var(--dark);color:#fff;padding:3rem 0}
+
+.copy{text-align:center;margin-top:1rem;font-size:.9rem}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:var(--whatsapp);
+color:#fff;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+font-size:1.3rem
+}
+
+@media(max-width:768px){
+.nav-links{display:none;flex-direction:column;background:#fff;position:absolute;top:60px;right:0;width:100%;padding:1rem}
+.nav-links.active{display:flex}
+#menu-mobile{display:block}
+}
+</style>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "Marcenaria Oliveira's",
+ "telephone": "+5544991438651",
+ "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Paiçandu",
+   "addressRegion": "PR",
+   "addressCountry": "BR"
+ }
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">Oliveira's Marcenaria</div>
+    <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#orcamento" class="btn-nav">Orçamento</a></li>
+    </ul>
+    <div id="menu-mobile">☰</div>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="container">
+    <h1>Móveis Planejados Sob Medida em Paiçandu e Maringá</h1>
+    <p>Projetos personalizados com acabamento impecável e entrega profissional.</p>
+    <a href="#orcamento" class="btn-primary">Solicitar Orçamento</a>
+  </div>
+</section>
+
+<section class="servicos" id="servicos">
+  <div class="container">
+    <h2>Nossos Serviços</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Cozinhas Planejadas</h3>
+        <p>Projetos sob medida com máximo aproveitamento de espaço.</p>
+      </div>
+      <div class="card">
+        <h3>Guarda-Roupas</h3>
+        <p>Organização inteligente com acabamento premium.</p>
+      </div>
+      <div class="card">
+        <h3>Móveis Comerciais</h3>
+        <p>Projetos para lojas, escritórios e ambientes corporativos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="orcamento">
+  <div class="container">
+    <h2>Solicite Seu Orçamento Gratuito</h2>
+    <a href="https://wa.me/5544991438651" target="_blank" class="btn-secondary">
+      Falar no WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer id="contato">
+  <div class="container">
+      <h3>Contato</h3>
+      <p>(44) 99143-8651</p>
+      <p>Paiçandu - PR</p>
+  </div>
+  <div class="copy">
+    © 2026 Marcenaria Oliveira's - Todos os direitos reservados
+  </div>
+</footer>
+
+<a href="https://wa.me/5544991438651" class="whatsapp" target="_blank">💬</a>
+
+<script>
+document.getElementById("menu-mobile")
+.addEventListener("click",()=>document.querySelector(".nav-links").classList.toggle("active"));
+</script>
+
+</body>
+</html>
